@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A HTML Thing</title>
+<a href="https://phstigers.github.io/TheList/">to the list</a>
+<script src="sc_Stuff.js"></script>
+</head>
+<body >
+ <style>
+
+table,th{border-style:double;border-width:15px;}
+th{background-color:red;border-color:green;}
+ul{border-style:double;border-color:purple;
+border-width:10px;width:40%;}
+.bdd{border-style:single;border-color:green;border-width:7px;}
+</style>
+<h2 title="WTF">Basic HTML Table</h2>
+
+<table style="width:100%">
+  <tr>
+    <th id='fn' onclick="fName()" ondblclick="origName()">Firstname</th>
+    <th title="this is the middle column" >Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td id="jill" >Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td onclick="fName()">Eve</td>
+    <td><input id='inJ' class="bdd" onchange="jack()">Jackson</td>   
+   <td>94</td>
+  </tr>
+  <tr>
+    <td id='joh'>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+<br>
+<input id='in' class="bdd" ondblclick="jill()">
+<br><br>
+<p id='p1' class="bdd" onclick="wordAr()" >start</p>
+<br><br>
+<button onclick="but()">button</button>
+<br><br>
+
+
+
+<p id="demo" class="bdd"></p>
+
+
+</body>
+</html>
